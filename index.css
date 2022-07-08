@@ -1,0 +1,36 @@
+/* 아래 코드는 문제 해결을 위해 기본적으로 제공되는 코드입니다. 수정하지 마세요! */
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
+#ulheader {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+}
+#ulheader li {
+  width: 100px;
+  height: 50px;
+}
+ul {
+  list-style: none;
+}
+main {
+  width: 100%;
+  height: 80%;
+}
+main img {
+  width: 300px;
+}
